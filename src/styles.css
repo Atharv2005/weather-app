@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+#weather-heading {
+  display: flex;
+  margin-top: 80px;
+}
+.wrapper {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  border-radius: 10px;
+  width: 500px;
+  margin: auto;
+  padding-bottom: 100px;
+  height: 200px;
+}
+
+.weather-flex {
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.input-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+#weather-input {
+  background-color: white;
+  outline: none;
+  width: 250px;
+  border: none;
+  height: 30px;
+  border-radius: 3px;
+}
+
+#form {
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+}
